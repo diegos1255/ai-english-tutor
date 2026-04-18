@@ -1,0 +1,108 @@
+{
+  "navbar": {
+    "login": "Sign In",
+    "home": "Home",
+    "testimonials": "Testimonials",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title_1": "Learn English with",
+    "title_highlight": "Intelligence",
+    "subtitle": "The only tutor that speaks your language: Code. Learn verb tenses and technical vocabulary by simulating real developer situations."
+  },
+  "cards": {
+    "ready": {
+      "title": "Ready to level up?",
+      "desc": "Interested? Let's start this journey right now and transform the way you learn programming and English.",
+      "button": "Start Journey"
+    },
+    "context": {
+      "title": "Contextual Translation",
+      "desc": "Don't know what that variable means? Hover over the code and get the exact translation in a programming context.",
+      "button": "Learn More"
+    }
+  },
+  "sections": {
+    "testimonials_title": "What Devs are Saying",
+    "about_title": "Where code and language",
+    "about_highlight": "meet.",
+    "about_desc": "We were born from the frustration of seeing brilliant developers limited by the language barrier. Our AI doesn't teach you how to order pizza; it teaches you how to explain why the server went down or how to deploy a complex query.",
+    "about_item1": "Real-time keyword translation (Hover)",
+    "about_item2": "Code logic explanation in English",
+    "about_item3": "24/7 AI Tutor for syntax doubts",
+    "about_item4": "Vocabulary focused on documentation and agile meetings",
+    "contact_title": "Still have questions?",
+    "contact_subtitle": "Our support team is ready to help you unlock your international career."
+  },
+  "footer": {
+    "desc": "Evolving the way developers learn English, connecting code and language in a single experience.",
+    "nav_title": "Navigation",
+    "about": "About the project",
+    "who": "Who we are",
+    "contact": "Contact",
+    "legal_title": "Legal",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "rights": "© 2026 AI English Tutor. All rights reserved."
+  },
+  "auth": {
+    "login_title": "Access your account",
+    "email_label": "Your email",
+    "email_placeholder": "example@company.com",
+    "password_label": "Your password",
+    "password_placeholder": "••••••••",
+    "login_button": "Sign in",
+    "no_account": "Don't have an account?",
+    "create_account_link": "Create an account",
+    "secure_environment": "Secure environment",
+    
+    "register_title": "Create your account",
+    "step_personal": "Personal",
+    "step_account": "Account",
+    "step_review": "Review",
+    "name_label": "Full Name",
+    "name_placeholder": "Your full name",
+    "birth_date_label": "Date of Birth",
+    "optional": "(Optional)",
+    "create_password_label": "Create a password",
+    "password_hint": "Min. 6 chars and 1 special (!@#$%).",
+    "confirm_password_label": "Confirm password",
+    "passwords_mismatch": "Passwords do not match.",
+    "almost_there": "Almost there!",
+    "review_text": "Review your data before completing your account creation. If something is wrong, just click 'Back'.",
+    "btn_back": "Back",
+    "btn_next": "Next",
+    "btn_confirm": "Confirm and Create Account",
+    "has_account": "Already have an account?",
+    "login_link": "Sign in",
+    "email_warning_title": "Attention!",
+    "email_warning_text": "This email address is already in use. Please try another one."
+  },
+  "sidebar": {
+    "language": "Language",
+    "logout": "Sign Out"
+  },
+  "tutor": {
+    "new_chat": "New Chat",
+    "history": "History",
+    "header_title": "AI Tutor",
+    "header_subtitle": "Your pair programming partner",
+    "welcome_title": "Hi! I'm your English Tutor for Devs. 🧠",
+    "welcome_desc": "I'm here to help you master technical vocabulary, review your corporate emails, or prepare you for interviews in English. How can I help you today?",
+    "suggestion_1_title": "Review an Email",
+    "suggestion_1_desc": "Help me write an email explaining a bug in production.",
+    "suggestion_2_title": "Technical Interview",
+    "suggestion_2_desc": "Simulate an interview asking me about React in English.",
+    "suggestion_3_title": "Explain Code",
+    "suggestion_3_desc": "How do I explain what a REST API does to a foreign client?",
+    "input_placeholder": "Type your code or English question here...",
+    "btn_send": "Send message",
+    "ai_typing": "Tutor is typing...",
+    "rename_chat": "Rename Chat",
+    "pin_chat": "Pin Chat",
+    "unpin_chat": "Unpin Chat",
+    "pin_message": "Pin for later",
+    "unpin_message": "Unpin"
+  }
+}

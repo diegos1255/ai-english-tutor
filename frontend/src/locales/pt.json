@@ -1,0 +1,108 @@
+{
+  "navbar": {
+    "login": "Entrar",
+    "home": "Início",
+    "testimonials": "Depoimentos",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title_1": "Aprenda Inglês com",
+    "title_highlight": "Inteligência",
+    "subtitle": "O único tutor que fala a sua língua: Código. Aprenda tempos verbais e vocabulário técnico simulando situações reais de um desenvolvedor."
+  },
+  "cards": {
+    "ready": {
+      "title": "Pronto para evoluir?",
+      "desc": "Se interessou? Vamos começar essa jornada agora mesmo e transformar a forma como você aprende programação e inglês.",
+      "button": "Começar Jornada"
+    },
+    "context": {
+      "title": "Tradução Contextual",
+      "desc": "Não sabe o que aquela variável significa? Passe o mouse por cima do código e receba a tradução exata no contexto da programação.",
+      "button": "Saiba Mais"
+    }
+  },
+  "sections": {
+    "testimonials_title": "O que dizem os Devs",
+    "about_title": "Onde o código e o idioma",
+    "about_highlight": "se encontram.",
+    "about_desc": "Nascemos da frustração de ver desenvolvedores brilhantes limitados pela barreira da língua. Nossa IA não ensina você a pedir pizza; ela ensina você a explicar por que o servidor caiu ou como fazer o deploy de uma query complexa.",
+    "about_item1": "Tradução de keywords em tempo real (Hover)",
+    "about_item2": "Explicação de lógica de código em inglês",
+    "about_item3": "Tutor IA disponível 24/7 para dúvidas de sintaxe",
+    "about_item4": "Vocabulário focado em documentação e reuniões ágeis",
+    "contact_title": "Ainda com dúvidas?",
+    "contact_subtitle": "Nossa equipe de suporte está pronta para te ajudar a destravar sua carreira internacional."
+  },
+  "footer": {
+    "desc": "Evoluindo a forma como desenvolvedores aprendem inglês, conectando código e idioma em uma só experiência.",
+    "nav_title": "Navegação",
+    "about": "Sobre o projeto",
+    "who": "Quem somos",
+    "contact": "Contato",
+    "legal_title": "Legal",
+    "terms": "Termos de Uso",
+    "privacy": "Privacidade",
+    "rights": "© 2026 AI English Tutor. Todos os direitos reservados."
+  },
+  "auth": {
+    "login_title": "Acesse sua conta",
+    "email_label": "Seu e-mail",
+    "email_placeholder": "exemplo@empresa.com",
+    "password_label": "Sua senha",
+    "password_placeholder": "••••••••",
+    "login_button": "Entrar",
+    "no_account": "Não tem cadastro?",
+    "create_account_link": "Crie sua conta",
+    "secure_environment": "Ambiente seguro",
+    
+    "register_title": "Crie sua conta",
+    "step_personal": "Pessoal",
+    "step_account": "Conta",
+    "step_review": "Revisão",
+    "name_label": "Nome Completo",
+    "name_placeholder": "Seu nome completo",
+    "birth_date_label": "Data de Nascimento",
+    "optional": "(Opcional)",
+    "create_password_label": "Crie uma senha",
+    "password_hint": "Mín. 6 caracteres e 1 especial (!@#$%).",
+    "confirm_password_label": "Confirme a senha",
+    "passwords_mismatch": "As senhas digitadas não batem.",
+    "almost_there": "Quase lá!",
+    "review_text": "Revise seus dados antes de concluir a criação da sua conta. Se algo estiver errado, basta clicar em 'Voltar'.",
+    "btn_back": "Voltar",
+    "btn_next": "Próximo",
+    "btn_confirm": "Confirmar e Criar Conta",
+    "has_account": "Já tem uma conta?",
+    "login_link": "Faça login",
+    "email_warning_title": "Atenção!",
+    "email_warning_text": "Este e-mail já está em uso. Tente outro."
+  },
+  "sidebar": {
+    "language": "Idioma",
+    "logout": "Sair (Logout)"
+  },
+  "tutor": {
+    "new_chat": "Novo Chat",
+    "history": "Histórico",
+    "header_title": "Tutor IA",
+    "header_subtitle": "Seu parceiro de pair programming",
+    "welcome_title": "Olá! Eu sou seu Tutor de Inglês para Devs. 🧠",
+    "welcome_desc": "Estou aqui para te ajudar a dominar o vocabulário técnico, revisar seus e-mails corporativos ou te preparar para entrevistas em inglês. Como posso te ajudar hoje?",
+    "suggestion_1_title": "Revisar um E-mail",
+    "suggestion_1_desc": "Me ajude a escrever um e-mail explicando um bug em produção.",
+    "suggestion_2_title": "Entrevista Técnica",
+    "suggestion_2_desc": "Simule uma entrevista me perguntando sobre React em inglês.",
+    "suggestion_3_title": "Explicar Código",
+    "suggestion_3_desc": "Como eu explico o que uma API REST faz para um cliente gringo?",
+    "input_placeholder": "Digite sua dúvida de código ou inglês aqui...",
+    "btn_send": "Enviar mensagem",
+    "ai_typing": "O Tutor está digitando...",
+    "rename_chat": "Renomear Chat",
+    "pin_chat": "Fixar Chat",
+    "unpin_chat": "Desfixar Chat",
+    "pin_message": "Fixar para depois",
+    "unpin_message": "Desfixar"
+  }
+}
