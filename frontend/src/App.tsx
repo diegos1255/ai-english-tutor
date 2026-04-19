@@ -9,6 +9,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 import Settings from './pages/Settings';
 import AdminUsers from './pages/AdminUsers';
+import NewUser from './pages/NewUser';
 import Tutor from './pages/Tutor';
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/configuracoes" element={<Settings />} />
             <Route path="/admin/users" element={<AdminUsers />} />
+            <Route path="/admin/users/new" element={<NewUser />} />
             <Route path="/chat" element={<Tutor />} />
             {/* Qualquer outra tela futura logada (ex: /chat) vai entrar aqui dentro também! */}
           </Route>

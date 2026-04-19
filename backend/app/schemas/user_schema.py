@@ -21,6 +21,24 @@ class UserCreate(BaseModel):
         
         return self
 
+class UserAdminCreate(BaseModel):
+    name: str = Field(..., min_length=2, description="Nome completo do usuário")
+    email: EmailStr
+    birth_date: Optional[date] = Field(None, description="Data de nascimento")
+    password: str = Field(min_length=6, description="Mínimo de 6 caracteres")
+    confirm_password: str
+    role: str
+
+    @model_validator(mode='after')
+    def check_passwords_match(self):
+        if self.password != self.confirm_password:
+            raise ValueError('As senhas não coincidem.')
+        
+        if not re.search(r"[!@#$%^&*(),.?\":{}|<>]", self.password):
+            raise ValueError('A senha deve conter pelo menos um caractere especial.')
+        
+        return self
+
 class UserResponse(BaseModel):
     id: UUID
     name: str
@@ -78,3 +96,10 @@ class UserAdminUpdate(BaseModel):
     english_level: Optional[str] = None
     tech_stack: Optional[str] = None
     password: Optional[str] = Field(None, min_length=6)
+
+    @model_validator(mode='after')
+    def check_password_strength(self):
+        if self.password:
+            if not re.search(r"[!@#$%^&*(),.?\":{}|<>]", self.password):
+                raise ValueError('A senha deve conter pelo menos um caractere especial.')
+        return self
