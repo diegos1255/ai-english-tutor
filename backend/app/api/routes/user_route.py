@@ -6,7 +6,7 @@ from app.services.user_service import UserService
 from app.core.database import get_db
 from app.core.dependencies import get_current_user
 
-from app.schemas.user_schema import UserAdminUpdate, UserCreate, UserResponse, UserMeResponse, UserRegisterResponse, UserUpdate
+from app.schemas.user_schema import UserAdminUpdate, UserCreate, UserResponse, UserMeResponse, UserRegisterResponse, UserUpdate, UserAdminCreate
 from app.models.user_model import User
 
 from app.core.dependencies import require_self_or_admin, require_role
@@ -111,5 +111,18 @@ def admin_update_user_endpoint(
             data=update_data
         )
         return updated_user
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+@router.post("/admin", response_model=UserResponse)
+def admin_create_user_endpoint(
+    user_data: UserAdminCreate,
+    db: Session = Depends(get_db),
+    current_user = Depends(require_role(UserRole.ADMIN))
+):
+    user_service = UserService(db)
+    try:
+        new_user = user_service.admin_create_user(user_data.model_dump())
+        return new_user
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))

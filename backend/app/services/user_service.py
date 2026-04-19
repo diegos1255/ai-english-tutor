@@ -34,6 +34,26 @@ class UserService:
 
         return self.user_repository.create(new_user)
 
+    def admin_create_user(self, data: dict):
+        existing_user = self.user_repository.find_by_email(data["email"])
+        if existing_user:
+            raise Exception("Este e-mail já está em uso.")
+
+        password_hash = bcrypt.hashpw(
+            data["password"].encode(),
+            bcrypt.gensalt()
+        ).decode()
+
+        new_user = User(
+            name=data.get("name"),
+            email=data.get("email"),
+            password_hash=password_hash,
+            role=data.get("role", "user"),
+            birth_date=data.get("birth_date")
+        )
+
+        return self.user_repository.create(new_user)
+
     def get_user_by_id(self, user_id: UUID):
         return self.user_repository.find_by_id(user_id)
 
